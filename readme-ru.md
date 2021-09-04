@@ -1,0 +1,52 @@
+### База данных биполярных активных областей на Солнце, нарушающих закон Хейла
+
+#### Описание
+
+Активные области на Солнце подчиняются определенным закономерностям. Среди них закон Хейла, согласно которому во время четного (нечетного) 11-летнего цикла солнечной активности ведущие полярности активных областей имеют отрицательную (положительную) полярность в северном полушарии Солнца и положительную (отрицательную) в южном. Закон полярностей Хейла имеет исключения. Созданная база данных содержит биполярные активные области, нарушающие закон Хейла, в период времени с 1989 по 2018 гг.
+
+#### Структура базы данных
+
+База данных включает 275 солнечных активных областей, нарушающих закон Хейла. Для каждой активной области база данных содержит данные в максимуме эволюции (в максимуме площади пятен). Данные представлены в виде таблицы и разделены на 3 блока:
+1) USAF/NOAA SRS;
+2) DPD;
+3) специальные отметки.
+
+База данных хранится в форматах h5, csv, html.
+
+**"h5"** — HDF-формат, см. [здесь](https://en.wikipedia.org/wiki/Hierarchical_Data_Format).
+<br>
+**"csv"** — простой текстовый формат для табличных данных.
+
+#### Связанные публикации
+
+[Zhukova, A., Khlystova, A., Abramenko, V., Sokoloff, D. A Catalog of Bipolar Active Regions Violating the Hale Polarity Law, 1989 – 2018. Solar Physics 295, 165 (2020)](https://doi.org/10.1007/s11207-020-01734-9)
+// [ArXiv](https://arxiv.org/abs/2010.14413)
+
+#### Цитирование базы данных
+
+Zhukova, A., Khlystova, A., Abramenko, V., Sokoloff, D. A Catalog of Bipolar Active Regions Violating the Hale Polarity Law, 1989 – 2018. Solar Physics 295, 165 (2020). https://doi.org/10.1007/s11207-020-01734-9
+
+-----
+
+#### Содержание репозитория
+
+Репозиторий содержит:
+
+- базу данных в разных форматах с идентичным содержанием:
+  - barvhl.h5
+  - barvhl.csv
+  - barvhl.html
+- примеры использования на языке Python
+  1. [Описание таблиц](https://github.com/khlystova/barvhl/blob/master/examples-ru/01-data-description-ru.ipynb)
+  2. [Вывод графиков с простыми зависимостями](https://github.com/khlystova/barvhl/blob/master/examples-ru/02-simple-plots-ru.ipynb)
+
+Файлы с содержанием на русском языке в имени **"-ru"**
+<br>
+#### Требования для запуска примеров
+
+* Python 3 (>3.6)
+* Interactive Python
+* [Pandas](https://pandas.pydata.org/docs/)
+* [Numpy](https://github.com/numpy/numpy)
+* [h5py](https://github.com/h5py/h5py)
+* [Matplotlib](https://matplotlib.org/stable/users/installing.html)

@@ -2,18 +2,18 @@
 
 #### Description
 
-Active regions on the Sun obey certain regularities. Among them is the Hale's law, which says that during an even (or odd) 11-year cycle of solar activity, leading polarities of active regions have negative (or positive) polarity in the Northern Hemisphere of the Sun, and positive (or negative) polarity in its Southern Hemisphere. The Hale's law has exceptions. The created database contains bipolar active regions that violate the Hale's law over the period of 1989-2018.
+Active regions on the Sun obey certain regularities. Among them is the Hale's law, which says that during an even (or odd) 11-year cycle of solar activity, leading polarities of active regions have negative (or positive) polarity in the Northern Hemisphere of the Sun, and positive (or negative) polarity in its Southern Hemisphere. The Hale's law has exceptions. The created database contains bipolar active regions that violate the Hale's law over the period of 1989-2020.
 
 #### Database structure
 
-The database includes 275 solar active regions violating the Hale's law. For each active region, the database contains data at the maximum of evolution (at the maximum of sunspot area). These data are presented as a table and divided into 3 blocks:
+The database includes 277 solar active regions violating the Hale's law. For each active region, the database contains data at the maximum of evolution (at the maximum of sunspot area). These data are presented as a table and divided into 3 blocks:
 1) USAF/NOAA SRS;
 2) DPD;
 3) special marks.
 
 The database is stored in formats: h5, csv, and html.
 
-**"h5"** is to HDF-format, see details [here](https://en.wikipedia.org/wiki/Hierarchical_Data_Format).
+**"h5"** refers to HDF-format, see details [here](https://en.wikipedia.org/wiki/Hierarchical_Data_Format).
 <br>
 **"csv"** is a simple text format to store tabular data.
 
@@ -37,8 +37,8 @@ Repository contains:
   - barvhl.csv
   - barvhl.html
 - Use cases
-  1. [Description of the tables](https://github.com/khlystova/barvhl/blob/master/examples/01-data-description.ipynb)
-  2. [Plots for simple dependencies](https://github.com/khlystova/barvhl/blob/master/examples/02-simple-plots.ipynb)
+  1. Description of the tables
+  2. Plots for simple dependencies
 
 Files with content in Russian have names with **"-ru"**
 <br>

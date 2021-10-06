@@ -30,15 +30,13 @@ Zhukova, A., Khlystova, A., Abramenko, V., Sokoloff, D. A Catalog of Bipolar Act
 
 #### Repository description
 
-Repository contains:
-
 - Database in different formats with identical content:
   - barvhl.h5
   - barvhl.csv
   - barvhl.html
-- Use cases
-  1. Description of the tables
-  2. Plots for simple dependencies
+- Use cases in Python (folder 'examples'):
+  - Database description (01-data-description.ipynb)
+  - Plots for simple dependencies (02-simple-plots.ipynb)
 
 Files with content in Russian have names with **"-ru"**
 <br>
